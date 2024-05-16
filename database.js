@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static('public'));
 
 app.get("/", (req, res)=>{
-    res.sendFile(__dirname + '/student.html');
+    res.sendFile(__dirname + '/index.html');
  } );
 
 // Middleware - บอกวิธีการที่ client ส่งข้อมูลผ่าน middleware
