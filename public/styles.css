@@ -1,0 +1,35 @@
+input{
+    width: 25vw;
+    padding: 0.5rem;
+    margin: 4px;
+    /* margin-right: 2px; */
+}
+input::placeholder{
+    font:1.25rem/3;
+    color:rgb(112, 112, 109)
+}
+body{
+    color: blue;
+}
+button{
+    background-color:rgb(110, 107, 105);
+    color: rgb(255, 255, 255);
+}
+
+.form1 {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+ }
+
+ body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+ }
